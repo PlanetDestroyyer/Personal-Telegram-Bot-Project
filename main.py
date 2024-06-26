@@ -7,8 +7,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
-BOT_TOKEN = '7454460155:AAGzF215Fmos4l3Ncr3ktJ1vGwVv2_F0TyI'
-GOOGLE_API_KEY = "AIzaSyC3Qajvwjaw4yyrvPpC8vvZgjUISa1tUHg"
+BOT_TOKEN = ''
+GOOGLE_API_KEY = ''
 
 try:
     gen_ai.configure(api_key=GOOGLE_API_KEY)
